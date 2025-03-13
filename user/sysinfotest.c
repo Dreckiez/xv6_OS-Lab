@@ -153,7 +153,7 @@ main(int argc, char *argv[])
   sysinfo(&info);
 
   printf("Free Memory: %lu\n", info.freemem);
-  printf("Unused Proccesses: %lu\n", info.nproc);
+  printf("Active Proccesses: %lu\n", info.nproc);
   printf("Opening Files: %lu\n", info.nopenfiles);
 
   printf("sysinfotest: OK\n");
